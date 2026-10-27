@@ -24,7 +24,7 @@ Arduino UNO, sensor AS608, 2 LED (hijau & merah), 2 resistor (330 Ω – 1 kΩ),
 | LED merah (+) | D7 lewat resistor |
 | Kaki (−) kedua LED | GND |
 | Kapasitor 100 µF Kaki (+) | VCC Sensor |
-| Kapasitor 100 µF Kaki (+) | GND Sensor |
+| Kapasitor 100 µF Kaki (-) | GND Sensor |
 
 Kapasitor menjadi buffer lonjakan arus AS608 (~95 mA saat upload gambar). Tanpa ini, tegangan 5V drop sesaat → bit error → gambar korup.
 

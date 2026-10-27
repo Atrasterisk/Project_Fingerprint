@@ -20,8 +20,8 @@ Arduino UNO, sensor AS608, 2 LED (hijau & merah), 2 resistor (330 Ω – 1 kΩ),
 | AS608 GND | GND |
 | AS608 TX | D8 (RX AltSoftSerial) |
 | AS608 RX | D9 (TX AltSoftSerial) |
-| LED hijau (+) | D6 lewat resistor |
-| LED merah (+) | D7 lewat resistor |
+| LED hijau (+) | D5 lewat resistor |
+| LED merah (+) | D6 lewat resistor |
 | Kaki (−) kedua LED | GND |
 | Kapasitor 100 µF Kaki (+) | VCC Sensor |
 | Kapasitor 100 µF Kaki (-) | GND Sensor |
